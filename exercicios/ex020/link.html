@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style> 
+    /*
+    # = id
+    . = class
+    : = pseudoclasse
+    :: = pseudo elemento
+    > filho\clildren+
+    */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none; /*aqui para tirar o subliado do links*/
+            font-weight: bold;
+        }
+        a:visited { /*aqui a psedoclasse visited quer dizer que o a (link) for visitado ou clicado ficar uma configuracao diferente*/
+            color: darkred; /*os links que ja firam clicado vao ficar nessa cor*/
+
+        }
+        a:hover{
+            text-decoration: underline;  /*usando a psedoclasse hover quando passarmos o mouse em cima do link ele vai ficar sublimiado e na cor preta*/
+            color: black;
+        }
+        a:active{
+            color: blueviolet; /*essa psedoclasse é para quando o link ficar ativo/clicado ficar nessa cor*/
+        }
+
+        a::after{ /*usamos o dois ponto para pseudo elementos, o affter é para adicionar algo no final ou depois que nesse caso vai ser do link*/
+            content: '→';
+
+        }
+        a::before{
+            content: '←';    /*o before é para antes*/
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizandos links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio Github</a></li>
+
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em video</a></li>
+    </ul> <!--AQui colocamos uns links em uma lista e colocamos o target blanks para o link ser aberto em outra aba-->
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Resposiva</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 
+            10px;
+
+           min-width: 320px; /*o tamanho maximo e minimo é para aplicar responsividade que nesse caso aqui é no main */
+           max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Resposividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae beatae perspiciatis deserunt magnam! Ullam inventore minima corporis omnis at quidem voluptates ea asperiores earum? Vitae aspernatur eius autem. Velit, quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quibusdam inventore provident! Consequatur officiis adipisci magnam iure labore eius eaque quo facere, necessitatibus repellendus reprehenderit, nulla soluta ratione possimus facilis.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt=""></picture> <!--aqui colocamos um source para quando a pagina for menor que 600px ela vai usar a imagem pequena tornando o site responsivo-->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate molestias enim quia, nulla molestiae eius ab deserunt sint! Officia quae aliquam cupiditate, sequi ad temporibus odio tempore velit! Praesentium, quo?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequatur, non impedit illo dignissimos unde ullam ratione sint, eveniet temporibus et cum quibusdam quod eos saepe quas asperiores voluptatum vitae?</p>
+    </main>
+    
+</body>
+</html>
