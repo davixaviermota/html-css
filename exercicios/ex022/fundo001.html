@@ -6,14 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de imagen de fundo</title>
     <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
         .quadrado{
             border: 2px solid black;
             width: 300px;
             height: 300px;
             border-radius: 10px;
             background-color: rgb(29, 86, 243);
+            display: inline-block;
+            
+            
+            
+            
+        }       /*Aqui vemos os modos de configurar o fundo*/
+        #q1{
+            background-color: aqua;
         }
-        
+        #q2{
+            background-image: linear-gradient(to bottom, rgb(255, 0, 179), rgb(32, 32, 253));
+        }
+        #q3{
+            background-image: url('imagens/pattern001.png');/*aqui colocamos uma url para por uma imagen no fundo*/
+        }
     </style>
 </head>
 <body>
