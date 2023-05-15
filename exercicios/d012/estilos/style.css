@@ -17,6 +17,8 @@ header{
     text-align: center;
 
 }
+
+
 header img{
     width: 70px;
     padding-top: 30px;
@@ -44,6 +46,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em; /*espacamento entre linhas*/
     padding-left: 30px;
+    font-size: 1.2em;
 
 
 }
