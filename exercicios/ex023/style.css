@@ -13,6 +13,7 @@ body{
 header h1{
     color: white;
     text-shadow: 0px 0px 7px rgb(0 157 255);
+    text-align: center;
 }
 
 td{
@@ -24,10 +25,12 @@ td{
     font-weight: bold;
 
 }
+
 table{
     width: 400px; /*almentando o tamanmho */
     height: 400px;
     /*border-collapse: collapse; /*aqui juntamos os blocos da tablea para ficar um só, por padaro é separado*/
+    margin: auto;
 
 }
 tr{
