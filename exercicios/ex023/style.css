@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    
+}
+body{
+    background-image: url(dados-azul.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1{
+    color: white;
+    text-shadow: 0px 0px 7px rgb(0 157 255);
+}
+
+td{
+     /*aqui nos dados da tabeça (td) colocamos a boorda */
+    padding: 8px;
+    text-align: center; /*alinhar os dados dentro da tabela.*/
+    vertical-align: middle; /*alinhar verticalmente */
+    color: rgb(19, 0, 105);
+    font-weight: bold;
+
+}
+table{
+    width: 400px; /*almentando o tamanmho */
+    height: 400px;
+    /*border-collapse: collapse; /*aqui juntamos os blocos da tablea para ficar um só, por padaro é separado*/
+
+}
+tr{
+    background-color: aliceblue;
+}
