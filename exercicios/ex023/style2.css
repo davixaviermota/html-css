@@ -48,7 +48,12 @@ table{
     width: 400px;
     color: white;
     margin: auto;
+   
+}
+caption{
     padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 td, th{
     border: 1px solid rgba(137, 43, 226, 0.301);
