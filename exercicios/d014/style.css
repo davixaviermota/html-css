@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+body{
+    background-color: rgb(212, 212, 212);
+}
+main{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 7px;
+    
+
+}
+h1{
+    text-align: center;
+}
+h2{
+   font-size: 18px;
+   padding-left: 10px;
+
+   
+}
+
+
+p{
+    padding-left: 20px;
+}
