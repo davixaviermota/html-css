@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de Iframe</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            
+        }
+        iframe{
+            width: 95vh;
+            height: 400px;
+            border: 1px solid black  
+        }
+    </style>
+</head>
+<body>
+    <h1>/
+        Estou fazendo mais um iframe
+    </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ea laboriosam provident iusto, numquam nisi cupiditate facere deleniti! Tenetur consequatur eveniet molestias temporibus? Placeat, ducimus nemo iure blanditiis vel dolorem?
+
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="paginas-extras/pag001.html" target="frame">Primeira Pagina</a></li>
+            <li><a href="paginas-extras/pag002.html" target="frame">Segunda Pagina</a></li>
+            <li><a href="paginas-extras/pag003.html"  target="frame">Terceira Pagina</a></li>
+            
+        </ul>
+    </nav>
+
+    <iframe  name="frame" srcdoc="<h1>Escolha uma das Opções</h1> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus esse necessitatibus natus nam id perferendis. Laboriosam nam aperiam fugit voluptates dolores ut quam, incidunt, perferendis quae enim adipisci? A, libero.</p>">
+        <p>Infelizmente seu navegador nao é compativel</p>
+    </iframe>
+     
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, harum et laborum natus molestias, quisquam quia optio doloribus debitis explicabo exercitationem laudantium repellat necessitatibus nisi. Sunt voluptatum nemo officia pariatur! </p>
+</body>
+</html>
