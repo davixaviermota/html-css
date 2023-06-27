@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste de Formulário</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="" method="get">
-        
+    <form action="" method="post">
+        <p>
+            <label for="iusu">Usuário</label>
+            <input type="text" id="iusu" required>
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
