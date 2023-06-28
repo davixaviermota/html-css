@@ -10,6 +10,15 @@
      body{
         font-family: 'DM Sans', sans-serif;
      }
+     form{
+        padding: 5px;
+        font-size: 14pt;
+        font-weight: bold;
+     }
+     input{
+        padding: 10px;
+        
+     }
 
     </style>
 </head>
@@ -21,8 +30,18 @@
     <main>
         <form action="" method="post">
             <p>
-                <input type="text" >
+                <label for="inome">Nome</label>
+                <input type="text"  name="nome" id="inome" required maxlength="30" placeholder="nome completo" autocomplete="name">
+
             </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" placeholder="sua média" min="0" max="10" step="0.1" required> <!--o number é para permitir digitar somente números-->
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
 
         </form>
     </main>
