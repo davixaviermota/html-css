@@ -5,14 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários de Email e Tel</title>
 </head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+    body{
+        background-color: rgb(1, 112, 240);
+        font-family: 'DM Sans';
+        
+    }
+    section{
+        background-color: white;
+        text-align: left;
+        width: 360px;
+        height: 300px;
+        margin: auto;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.247);
+        padding: 1px 0px 0px 15px;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
 <body>
     <section>
         <h1>Formulário</h1>
         <p>Digite seu Email</p>
-        <form action="#" method="get">
+        <form action="#" method="get" autocomplete="on">
             <p>
                 <label for="email">Email:</label>
-                <input type="email" name="" id="email">
+                <input type="email" name="" id="email" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" required autocomplete="tel">
             </p>
             <p>
                 <input type="submit" value="Enviar">
