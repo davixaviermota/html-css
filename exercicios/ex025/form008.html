@@ -6,7 +6,24 @@
     <title>DaviMota</title>
 </head>
 <body>
-    <form>
+    <form method="get" autocomplete="on">
+
+        <p>
+            <label for="n1">Numéro 1</label>
+            <input type="number" id="n1" min="0" max="50" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)"> <!--O number é converter o valor para number, mas eu testei sem ele e funcionou-->
+        </p>
+        <p>
+            <label for="n2">Numéro 2</label>
+            <input type="number" id="n2" min="0" max="50" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="soma">Soma:</label>
+            <output id="soma">0</output>
+        </p>
+        <p>
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpra">
+        </p>
         
     </form>
 </body>
